@@ -136,6 +136,8 @@ navigation:
     url: "/research/"
   - title: "People"
     url: "/people/"
+  - title: "Sbatch Builder"
+    url: "/sbatch/"
   - title: "News"
     url: "/news/"
   - title: "Contact"
