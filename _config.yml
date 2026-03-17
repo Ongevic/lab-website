@@ -1,134 +1,89 @@
 # ============================================
-# LAB WEBSITE CONFIGURATION
-# Edit this file to customize your lab website
+# LAB WEBSITE TEMPLATE CONFIGURATION
+# Replace the placeholder values below with your own lab details.
 # ============================================
 
 # Site Settings
-name: "CARISMA Centre"
-description: "Climate change impact studies for risk management at IUSS Pavia."
-url: "https://iusspavia-carisma.github.io"
+name: "Example Lab"
+description: "A starter template for research groups, labs, and academic centres."
+url: "https://example.github.io"
 baseurl: "/lab-website"
 
 # Lab Information
 lab:
-  name: "CARISMA"
-  full_name: "Climate change impAct studies for RISk MAnagement"
-  tagline: "Research centre on climate change, impacts and risk management"
-  department: "Climate, Sustainability and Risk"
-  university: "Scuola Universitaria Superiore Pavia"
-  location: "Pavia, Italy"
-  founded: 2008
-  head: "Prof. Marco Gaetani"
+  name: "ExampleLab"
+  full_name: "Example Research Lab"
+  tagline: "A clean starting point for your team, projects, and updates"
+  department: "Department or School Name"
+  university: "University or Institution Name"
+  location: "City, Country"
+  founded: 2026
+  head: "Dr. Example Lead"
   overview:
     intro:
-      - "The CARISMA Centre responds to the need for coordination of the numerous disciplinary profiles present in the IUSS that relate to the issues of climate change and sustainable development."
-      - "CARISMA is the IUSS reference centre for the National PhD on Sustainable Development and Climate Change."
+      - "Use this starter site to present your lab, centre, or research group online."
+      - "Replace the sample content in the configuration and collection files with your own people, projects, and announcements."
     objectives:
-      - "Data analysis and modelling of the processes of the Earth system and the economic system."
-      - "Assessment of the impact on the environment and humans of extreme natural events and human activities, with particular reference to climate change."
-      - "Assessment and management of impact-associated risk."
-      - "Formulation and proposal of new economic, political and legal models of sustainable development."
+      - "Describe your mission in a short, clear list."
+      - "Summarize the kinds of research problems your group works on."
+      - "Highlight the methods, data, or collaborations that define your work."
+      - "Give visitors a quick sense of why the lab exists and what it contributes."
     activities:
-      - "Evaluation of possible climate evolution and the effects of climate change and climate variability on the environment, on humans and social organizations, in support of sustainable development."
-      - "Integration of climate change in risk analysis and management through the use of data and climate modelling."
-      - "Development of integrated methodologies to support the overall analysis of the risk associated with complex phenomena of natural and technological origin, including multi-hazard risk assessment."
-      - "Improvement of Earth system modelling, including its interactions with social and socio-economic dynamics, to support integrated and cost-effective risk management and decision-making."
+      - "Document the main activities of the group, such as fieldwork, modelling, experiments, or applied partnerships."
+      - "Use the research collection to describe major themes, projects, or work packages."
+      - "Use the news collection for short updates, grants, publications, workshops, and hiring notices."
+      - "Keep this section concise so the home and research pages stay easy to scan."
   activity_sections:
-    - title: "Variability and climate change, extreme events"
+    - title: "Research Theme One"
       paragraphs:
-        - "A core line of research of the centre is the study of climate through observations, satellite products and meteorological reanalysis datasets."
-        - "Recent and future anthropogenic climate change, and the related uncertainties, are studied using global and regional climate simulations, including high-resolution experiments from major international programmes."
-        - "Special attention is given to extremes such as intense precipitation and heat waves, with a focus on the Mediterranean region and developing countries."
-    - title: "Impact of climate on productive activities and human settlements"
+        - "Add a short description of your first research area here."
+        - "Explain what questions you study, what methods you use, and why the work matters."
+    - title: "Research Theme Two"
       paragraphs:
-        - "Research on climate variability and change is paired with impact analysis on the environment and on human activities."
-        - "The centre studies floods, droughts, agriculture, energy demand, renewable generation, thermal stress, and implications for buildings and infrastructures."
-        - "Statistical downscaling methods are applied to derive climate information at the resolution required for decision-making."
-    - title: "Interactions between environment, climate and socio-economic systems"
+        - "Add a second theme to show another line of work or a major application area."
+        - "You can use these sections to structure interdisciplinary or cross-team activities."
+    - title: "Research Theme Three"
       paragraphs:
-        - "This research area focuses on mitigation strategies and the management of risks linked to ongoing climate change."
-        - "Work covers value chains, greenhouse gas emissions, macroeconomic and financial risk, green transition policies, macro-prudential tools and transition risk in carbon-intensive sectors."
-        - "Analyses combine agent-based and stock-flow consistent macroeconomic models, network models, econometrics and machine learning."
+        - "Use a third block for a complementary topic, platform, or collaboration stream."
+        - "If you need more sections, add them here in the configuration."
   projects:
-    - "RESILIENCE (CARIPARO)"
-    - "Dipartimento d'Eccellenza (MUR)"
-    - "Ecliptic (PRIN22)"
-    - "HOLISTIC (PNRA)"
-    - "Space It Up (ASI)"
-    - "NEWS (PRIN22 PNRR)"
-    - "ADAPTNOW (Interreg Alpine Space Program)"
-    - "CLIMATHUNDERR (ERIES)"
-    - "EXTRALOADINPORTS (ERIES)"
-    - "CoPe (PNRR)"
-    - "CU-BOLD (ERIES)"
-    - "LIDAR (ERIES)"
-    - "Atmospheric aerosol emissions and transport in southern Africa (Programma Galileo)"
-    - "ANTICIPATE (COST Action)"
+    - "Template Project Alpha"
+    - "Template Project Beta"
+    - "Template Project Gamma"
   people:
     former_members:
-      - name: "Dr. Muhammad Nasir Imam"
+      - name: "Former Member One"
         orcid: ""
-      - name: "Dr. Marco Chericoni"
-        orcid: ""
-      - name: "Dott.ssa Laura T. Massano"
-        orcid: ""
-      - name: "Dott.ssa Modica Scala Angela"
-        orcid: ""
-      - name: "Dr. Naveen Ragu Ramalingam"
-        orcid: ""
-      - name: "Dott.ssa Franza Teresa"
+      - name: "Former Member Two"
         orcid: ""
   collaborations:
     national:
-      - "ENEA"
-      - "Universita degli Studi di Padova, Dipartimento di Ingegneria Civile, Edile e Ambientale"
-      - "Universita degli Studi di Padova, Dipartimento Territorio e Sistemi Agro-Forestali"
-      - "IRPET"
-      - "RED Risk"
-      - "ISPRA"
-      - "ISAC CNR"
-      - "Politecnico di Milano"
-      - "Comune di Milano"
-      - "Universita degli Studi di Genova"
-      - "Sanpellegrino SpA, Stabilimento Levissima"
+      - "National partner or institute"
+      - "Research network or collaborator"
     international:
-      - "LATMOS CNRS, Paris"
-      - "LISA CNRS, Creteil"
-      - "Biogeosciences, Universite Bourgogne Europe, Dijon"
-      - "Agence Francaise de Developpement, Paris"
-      - "Gallagher RE, London"
+      - "International partner or institute"
+      - "Global network or collaborator"
   publications:
-    - name: "Marco Gaetani"
-      url: "https://research.iusspavia.it/cris/rp/rp04079"
-    - name: "Mario Martina"
-      url: "https://research.iusspavia.it/cris/rp/rp00379"
-    - name: "Alessandro Caiani"
-      url: "https://research.iusspavia.it/cris/rp/rp04047"
-    - name: "Alessio Ricci"
-      url: "https://research.iusspavia.it/cris/rp/rp03995"
-    - name: "Francesco Dottori"
-      url: "https://research.iusspavia.it/cris/rp/rp05377"
-    - name: "Giorgia Fosser"
-      url: "https://research.iusspavia.it/cris/rp/rp05272"
+    - name: "Lead Researcher"
+      url: "https://example.org/profile"
+    - name: "Senior Researcher"
+      url: "https://example.org/profile"
 
 contact:
-  email: "carisma@iusspavia.it"
-  secondary_email: "marco.gaetani@iusspavia.it"
-  phone: "Tel: +39 0382 375811"
-  fax: "Fax: +39 0382 375899"
+  email: "lab@example.edu"
+  secondary_email: "admin@example.edu"
+  phone: "Tel: +00 0000 000000"
+  fax: "Fax: +00 0000 000001"
   address: |
-    IUSS Pavia
-    Palazzo del Broletto
-    Piazza della Vittoria 15
-    27100 Pavia, Italy
-  map_link: "https://www.bing.com/maps/search?FORM=HDRSC6&style=r&cp=45.191269~9.148983&lvl=18.5"
+    Building Name
+    Street Address
+    Postal Code City
+    Country
+  map_link: "https://maps.google.com"
 
 # Social Links
 social:
-  # twitter: "https://twitter.com/labhandle"
-  github: "https://github.com/IUSSPavia-CARISMA"
-  # linkedin: "https://linkedin.com/company/lab"
-  # bluesky: "https://bsky.app/profile/lab.bsky.social"
+  github: "https://github.com/example"
 
 # Navigation
 navigation:
@@ -136,8 +91,6 @@ navigation:
     url: "/research/"
   - title: "People"
     url: "/people/"
-  - title: "Sbatch Builder"
-    url: "/sbatch/"
   - title: "News"
     url: "/news/"
   - title: "Contact"
@@ -145,11 +98,11 @@ navigation:
 
 # Theme Colors (CSS custom properties will use these)
 colors:
-  primary: "#2563eb"      # Blue
-  secondary: "#059669"    # Green
-  accent: "#dc2626"       # Red
-  dark: "#1f2937"         # Dark gray
-  light: "#f9fafb"        # Light gray
+  primary: "#2563eb"
+  secondary: "#059669"
+  accent: "#dc2626"
+  dark: "#1f2937"
+  light: "#f9fafb"
 
 # Collections
 collections:

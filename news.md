@@ -4,6 +4,10 @@ title: News & Updates
 permalink: /news/
 ---
 
+<div class="prose-block">
+  <p>Use the <code>_news</code> collection for grants, publications, events, hiring notices, and short project updates.</p>
+</div>
+
 <div class="news-list">
   {% for post in site.news %}
   <article class="news-item">
@@ -13,7 +17,7 @@ permalink: /news/
     <div class="news-content">
       <h3 class="news-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="news-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more -></a>
     </div>
   </article>
   {% endfor %}

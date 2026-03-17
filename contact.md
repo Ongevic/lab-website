@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Contact Us
+title: Contact
 permalink: /contact/
 ---
+
+<div class="prose-block">
+  <p>Replace the contact details in <code>_config.yml</code> with your lab or centre information.</p>
+</div>
 
 <div class="contact-info">
   <div class="contact-item">

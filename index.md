@@ -1,17 +1,17 @@
 ---
 layout: default
-title: CARISMA
+title: Example Lab
 ---
 
 <section class="centre-hero" markdown="0">
   <div class="container centre-hero-shell">
     <div class="centre-hero-main">
-      <p class="centre-kicker">Research Centre</p>
+      <p class="centre-kicker">Research Group Template</p>
       <h1 class="centre-title">{{ site.lab.full_name }}</h1>
       <p class="centre-acronym">{{ site.lab.name }}</p>
       <p class="centre-summary">{{ site.lab.tagline }}</p>
       <p class="centre-affiliation">
-        Part of <a href="https://www.iusspavia.it/en" target="_blank" rel="noreferrer">IUSS Pavia</a>.
+        {{ site.lab.department }} at {{ site.lab.university }}.
       </p>
     </div>
   </div>

@@ -5,6 +5,6 @@ permalink: /publications/
 ---
 
 <div class="prose-block">
-  <p>This site does not maintain a standalone publications section.</p>
-  <p>For publication records, use the individual researcher pages in <a href="{{ '/people/' | relative_url }}">People</a> or the official IUSS research profiles linked from those pages.</p>
+  <p>This template does not require a dedicated publications page, but you can enable one if your lab needs it.</p>
+  <p>For a quick start, list profile links or publication repositories in <code>_config.yml</code> and on individual people pages.</p>
 </div>

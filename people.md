@@ -5,23 +5,14 @@ permalink: /people/
 ---
 
 <div class="prose-block">
-  <h2>Head of Research Centre</h2>
-  {% assign head = site.people | where: "slug", "marco-gaetani" | first %}
-  {% if head %}
-  <div class="people-directory">
-    <article class="directory-card">
-      <h3 class="directory-name"><a href="{{ head.url | relative_url }}">{{ head.name }}</a></h3>
-      <p class="directory-role">{{ head.position }}</p>
-    </article>
-  </div>
-  {% endif %}
+  <p>This template uses the <code>_people</code> collection for member profiles. Replace the sample records with your own team.</p>
 </div>
 
 <div class="prose-block">
-  <h2>Professors</h2>
+  <h2>Lead</h2>
   <div class="people-directory">
-    {% assign professors = site.people | where: "group", "Professor" | sort: "sort_order" %}
-    {% for person in professors %}
+    {% assign leads = site.people | where: "group", "Lead" | sort: "sort_order" %}
+    {% for person in leads %}
     <article class="directory-card">
       <h3 class="directory-name"><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
       <p class="directory-role">{{ person.position }}</p>
@@ -31,10 +22,10 @@ permalink: /people/
 </div>
 
 <div class="prose-block">
-  <h2>Associate Professor</h2>
+  <h2>Researchers</h2>
   <div class="people-directory">
-    {% assign associates = site.people | where: "group", "Associate Professor" | sort: "sort_order" %}
-    {% for person in associates %}
+    {% assign researchers = site.people | where: "group", "Researcher" | sort: "sort_order" %}
+    {% for person in researchers %}
     <article class="directory-card">
       <h3 class="directory-name"><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
       <p class="directory-role">{{ person.position }}</p>
@@ -44,27 +35,10 @@ permalink: /people/
 </div>
 
 <div class="prose-block">
-  <h2>Postdocs</h2>
+  <h2>Students</h2>
   <div class="people-directory">
-    {% assign postdocs = site.people | where: "group", "Postdoc" | sort: "sort_order" %}
-    {% for person in postdocs %}
-    <article class="directory-card">
-      <h3 class="directory-name"><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
-      <p class="directory-role">{{ person.position }}</p>
-    </article>
-    {% endfor %}
-  </div>
-</div>
-
-<div class="prose-block">
-  <h2>PhD Students</h2>
-  <p>
-    Several members are part of the
-    <a href="https://www.phd-sdc.it/" target="_blank" rel="noreferrer">National PhD in Sustainable Development and Climate Change (PhD SDC)</a>.
-  </p>
-  <div class="people-directory">
-    {% assign phd_students = site.people | where: "group", "PhD Student" | sort: "sort_order" %}
-    {% for person in phd_students %}
+    {% assign students = site.people | where: "group", "Student" | sort: "sort_order" %}
+    {% for person in students %}
     <article class="directory-card">
       <h3 class="directory-name"><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
       <p class="directory-role">{{ person.position }}</p>
