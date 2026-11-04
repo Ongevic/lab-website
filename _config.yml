@@ -152,3 +152,4 @@ exclude:
   - vendor
   - README.md
   - LICENSE
+  - LICENCE.md
